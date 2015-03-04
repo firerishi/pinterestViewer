@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6895B861-E98B-470C-874B-C19830D91D85</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pinterestViewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E4C02F8C08B7E374BE89F6056D878829CF2995D</key>
+		<string>https://github.com/firerishi/pinterestViewer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pinterestViewer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E4C02F8C08B7E374BE89F6056D878829CF2995D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/firerishi/pinterestViewer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E4C02F8C08B7E374BE89F6056D878829CF2995D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E4C02F8C08B7E374BE89F6056D878829CF2995D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pinterestViewer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

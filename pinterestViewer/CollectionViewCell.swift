@@ -10,5 +10,6 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var pinImage: UIImageView!
 }

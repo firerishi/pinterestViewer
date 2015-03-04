@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="82Z-tF-JxD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Layout Controller-->
@@ -27,26 +28,36 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="royal_tiger_square_blur.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZPR-vd-rtZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="270" height="270"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="500" height="500"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7l-DM-aVt">
-                                            <rect key="frame" x="66" y="120" width="162" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7l-DM-aVt">
+                                            <rect key="frame" x="95" y="284" width="100" height="25"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="hif-Wj-lDn"/>
                                                 <constraint firstAttribute="height" constant="25" id="zIt-sE-doY"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.92565822600000003" green="0.93130242819999998" blue="0.9372762442" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crown_L.png" translatesAutoresizingMaskIntoConstraints="NO" id="7cJ-eH-p0J">
+                                            <rect key="frame" x="125" y="149" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="8I1-79-zA2"/>
+                                                <constraint firstAttribute="height" constant="40" id="fbI-mq-5SP"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="b7l-DM-aVt" secondAttribute="bottom" constant="20" id="BqE-aA-s86"/>
                                     <constraint firstAttribute="centerX" secondItem="b7l-DM-aVt" secondAttribute="centerX" id="IFT-Nv-s41"/>
-                                    <constraint firstAttribute="centerY" secondItem="b7l-DM-aVt" secondAttribute="centerY" id="lKa-7b-Zov"/>
+                                    <constraint firstAttribute="centerY" secondItem="7cJ-eH-p0J" secondAttribute="centerY" id="Rzl-le-v9a"/>
+                                    <constraint firstAttribute="centerX" secondItem="7cJ-eH-p0J" secondAttribute="centerX" id="aBJ-Vw-Ccm"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="iconImage" destination="7cJ-eH-p0J" id="TvU-nm-uHE"/>
                                     <outlet property="pinImage" destination="ZPR-vd-rtZ" id="bC5-Ur-SqB"/>
                                     <outlet property="title" destination="b7l-DM-aVt" id="yKI-mS-3yc"/>
                                 </connections>
@@ -83,6 +94,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="crown_L.png" width="240" height="186"/>
         <image name="royal_tiger_square_blur.jpg" width="500" height="500"/>
     </resources>
 </document>

@@ -21,6 +21,12 @@
 		A4634C551AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C501AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg */; };
 		A4634C561AA60F4D00CB96CC /* maker_mac_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C511AA60F4D00CB96CC /* maker_mac_square_blur.jpg */; };
 		A4634C571AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C521AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg */; };
+		A4A2447B1AA6BED5008307D6 /* iMac_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A244751AA6BED5008307D6 /* iMac_L.png */; };
+		A4A2447C1AA6BED5008307D6 /* map_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A244761AA6BED5008307D6 /* map_L.png */; };
+		A4A2447D1AA6BED5008307D6 /* wrench_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A244771AA6BED5008307D6 /* wrench_L.png */; };
+		A4A2447E1AA6BED5008307D6 /* crown_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A244781AA6BED5008307D6 /* crown_L.png */; };
+		A4A2447F1AA6BED5008307D6 /* glasses_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A244791AA6BED5008307D6 /* glasses_L.png */; };
+		A4A244801AA6BED5008307D6 /* pen_L.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A2447A1AA6BED5008307D6 /* pen_L.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,12 @@
 		A4634C501AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intellect_coffee_square_blur.jpg; sourceTree = "<group>"; };
 		A4634C511AA60F4D00CB96CC /* maker_mac_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maker_mac_square_blur.jpg; sourceTree = "<group>"; };
 		A4634C521AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tinkerer_camera_square_blur.jpg; sourceTree = "<group>"; };
+		A4A244751AA6BED5008307D6 /* iMac_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMac_L.png; sourceTree = "<group>"; };
+		A4A244761AA6BED5008307D6 /* map_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_L.png; sourceTree = "<group>"; };
+		A4A244771AA6BED5008307D6 /* wrench_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrench_L.png; sourceTree = "<group>"; };
+		A4A244781AA6BED5008307D6 /* crown_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown_L.png; sourceTree = "<group>"; };
+		A4A244791AA6BED5008307D6 /* glasses_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses_L.png; sourceTree = "<group>"; };
+		A4A2447A1AA6BED5008307D6 /* pen_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen_L.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +146,12 @@
 		A48370C21AA6AEA700F28AE9 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				A4A244751AA6BED5008307D6 /* iMac_L.png */,
+				A4A244761AA6BED5008307D6 /* map_L.png */,
+				A4A244771AA6BED5008307D6 /* wrench_L.png */,
+				A4A244781AA6BED5008307D6 /* crown_L.png */,
+				A4A244791AA6BED5008307D6 /* glasses_L.png */,
+				A4A2447A1AA6BED5008307D6 /* pen_L.png */,
 				A4634C481AA60DE300CB96CC /* royal_tiger_square_blur.jpg */,
 				A4634C4E1AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg */,
 				A4634C4F1AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg */,
@@ -224,15 +242,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A2447B1AA6BED5008307D6 /* iMac_L.png in Resources */,
+				A4A2447D1AA6BED5008307D6 /* wrench_L.png in Resources */,
+				A4A244801AA6BED5008307D6 /* pen_L.png in Resources */,
 				A4634C2E1AA60D0300CB96CC /* Main.storyboard in Resources */,
 				A4634C331AA60D0300CB96CC /* LaunchScreen.xib in Resources */,
 				A4634C301AA60D0300CB96CC /* Images.xcassets in Resources */,
 				A4634C541AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg in Resources */,
 				A4634C561AA60F4D00CB96CC /* maker_mac_square_blur.jpg in Resources */,
+				A4A2447C1AA6BED5008307D6 /* map_L.png in Resources */,
 				A4634C571AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg in Resources */,
 				A4634C551AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg in Resources */,
 				A4634C491AA60DE300CB96CC /* royal_tiger_square_blur.jpg in Resources */,
+				A4A2447E1AA6BED5008307D6 /* crown_L.png in Resources */,
 				A4634C531AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg in Resources */,
+				A4A2447F1AA6BED5008307D6 /* glasses_L.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

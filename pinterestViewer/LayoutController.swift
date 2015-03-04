@@ -27,6 +27,14 @@ class LayoutController: UICollectionViewController, UICollectionViewDelegateFlow
         "tinkerer_camera_square_blur",
         "maker_mac_square_blur"
     ]
+    let icons = [
+        "pen_L",
+        "glasses_L",
+        "crown_L",
+        "map_L",
+        "wrench_L",
+        "iMac_L"
+    ]
     
     var screenSize: CGRect!
     var screenWidth: CGFloat!
@@ -60,11 +68,15 @@ class LayoutController: UICollectionViewController, UICollectionViewDelegateFlow
         
         var title = self.titles[indexPath.row]
         var picture = self.pictures[indexPath.row]
+        var icon = self.icons[indexPath.row]
         
         cell.title.text = self.titles[indexPath.row]
         
         let imgName = "\(picture).jpg"
         cell.pinImage.image = self.imageResize(UIImage(named: imgName)!, sizeChange: CGSizeMake(screenWidth/2, screenWidth/2))
+        
+        let iconName = "\(icon).png"
+        cell.iconImage.image = UIImage(named: iconName)
         
         return cell
     }
