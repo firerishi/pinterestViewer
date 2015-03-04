@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4634C291AA60D0300CB96CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4634C281AA60D0300CB96CC /* AppDelegate.swift */; };
+		A4634C2B1AA60D0300CB96CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4634C2A1AA60D0300CB96CC /* ViewController.swift */; };
+		A4634C2E1AA60D0300CB96CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4634C2C1AA60D0300CB96CC /* Main.storyboard */; };
+		A4634C301AA60D0300CB96CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4634C2F1AA60D0300CB96CC /* Images.xcassets */; };
+		A4634C331AA60D0300CB96CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4634C311AA60D0300CB96CC /* LaunchScreen.xib */; };
+		A4634C3F1AA60D0300CB96CC /* pinterestViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4634C3E1AA60D0300CB96CC /* pinterestViewerTests.swift */; };
+		A4634C491AA60DE300CB96CC /* royal_tiger_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C481AA60DE300CB96CC /* royal_tiger_square_blur.jpg */; };
+		A4634C4B1AA60E6B00CB96CC /* LayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4634C4A1AA60E6B00CB96CC /* LayoutController.swift */; };
+		A4634C4D1AA60EB200CB96CC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4634C4C1AA60EB200CB96CC /* CollectionViewCell.swift */; };
+		A4634C531AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C4E1AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg */; };
+		A4634C541AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C4F1AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg */; };
+		A4634C551AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C501AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg */; };
+		A4634C561AA60F4D00CB96CC /* maker_mac_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C511AA60F4D00CB96CC /* maker_mac_square_blur.jpg */; };
+		A4634C571AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4634C521AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4634C391AA60D0300CB96CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4634C1B1AA60D0300CB96CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4634C221AA60D0300CB96CC;
+			remoteInfo = pinterestViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4634C231AA60D0300CB96CC /* pinterestViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterestViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4634C271AA60D0300CB96CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4634C281AA60D0300CB96CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4634C2A1AA60D0300CB96CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4634C2D1AA60D0300CB96CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4634C2F1AA60D0300CB96CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4634C321AA60D0300CB96CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4634C381AA60D0300CB96CC /* pinterestViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterestViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4634C3D1AA60D0300CB96CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4634C3E1AA60D0300CB96CC /* pinterestViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestViewerTests.swift; sourceTree = "<group>"; };
+		A4634C481AA60DE300CB96CC /* royal_tiger_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = royal_tiger_square_blur.jpg; sourceTree = "<group>"; };
+		A4634C4A1AA60E6B00CB96CC /* LayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutController.swift; sourceTree = "<group>"; };
+		A4634C4C1AA60EB200CB96CC /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A4634C4E1AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adventurer_paddler_square_blur.jpg; sourceTree = "<group>"; };
+		A4634C4F1AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creative_typewriter_square_blur.jpg; sourceTree = "<group>"; };
+		A4634C501AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intellect_coffee_square_blur.jpg; sourceTree = "<group>"; };
+		A4634C511AA60F4D00CB96CC /* maker_mac_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maker_mac_square_blur.jpg; sourceTree = "<group>"; };
+		A4634C521AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tinkerer_camera_square_blur.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4634C201AA60D0300CB96CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4634C351AA60D0300CB96CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4634C1A1AA60D0300CB96CC = {
+			isa = PBXGroup;
+			children = (
+				A4634C251AA60D0300CB96CC /* pinterestViewer */,
+				A4634C3B1AA60D0300CB96CC /* pinterestViewerTests */,
+				A4634C241AA60D0300CB96CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4634C241AA60D0300CB96CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C231AA60D0300CB96CC /* pinterestViewer.app */,
+				A4634C381AA60D0300CB96CC /* pinterestViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4634C251AA60D0300CB96CC /* pinterestViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C281AA60D0300CB96CC /* AppDelegate.swift */,
+				A4634C2A1AA60D0300CB96CC /* ViewController.swift */,
+				A4634C4A1AA60E6B00CB96CC /* LayoutController.swift */,
+				A4634C4C1AA60EB200CB96CC /* CollectionViewCell.swift */,
+				A48370C21AA6AEA700F28AE9 /* resources */,
+				A4634C2C1AA60D0300CB96CC /* Main.storyboard */,
+				A4634C2F1AA60D0300CB96CC /* Images.xcassets */,
+				A4634C311AA60D0300CB96CC /* LaunchScreen.xib */,
+				A4634C261AA60D0300CB96CC /* Supporting Files */,
+			);
+			path = pinterestViewer;
+			sourceTree = "<group>";
+		};
+		A4634C261AA60D0300CB96CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C271AA60D0300CB96CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4634C3B1AA60D0300CB96CC /* pinterestViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C3E1AA60D0300CB96CC /* pinterestViewerTests.swift */,
+				A4634C3C1AA60D0300CB96CC /* Supporting Files */,
+			);
+			path = pinterestViewerTests;
+			sourceTree = "<group>";
+		};
+		A4634C3C1AA60D0300CB96CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C3D1AA60D0300CB96CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A48370C21AA6AEA700F28AE9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4634C481AA60DE300CB96CC /* royal_tiger_square_blur.jpg */,
+				A4634C4E1AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg */,
+				A4634C4F1AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg */,
+				A4634C511AA60F4D00CB96CC /* maker_mac_square_blur.jpg */,
+				A4634C521AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg */,
+				A4634C501AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4634C221AA60D0300CB96CC /* pinterestViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4634C421AA60D0300CB96CC /* Build configuration list for PBXNativeTarget "pinterestViewer" */;
+			buildPhases = (
+				A4634C1F1AA60D0300CB96CC /* Sources */,
+				A4634C201AA60D0300CB96CC /* Frameworks */,
+				A4634C211AA60D0300CB96CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinterestViewer;
+			productName = pinterestViewer;
+			productReference = A4634C231AA60D0300CB96CC /* pinterestViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4634C371AA60D0300CB96CC /* pinterestViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4634C451AA60D0300CB96CC /* Build configuration list for PBXNativeTarget "pinterestViewerTests" */;
+			buildPhases = (
+				A4634C341AA60D0300CB96CC /* Sources */,
+				A4634C351AA60D0300CB96CC /* Frameworks */,
+				A4634C361AA60D0300CB96CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4634C3A1AA60D0300CB96CC /* PBXTargetDependency */,
+			);
+			name = pinterestViewerTests;
+			productName = pinterestViewerTests;
+			productReference = A4634C381AA60D0300CB96CC /* pinterestViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4634C1B1AA60D0300CB96CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Srinivas, Thirumalaa";
+				TargetAttributes = {
+					A4634C221AA60D0300CB96CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A4634C371AA60D0300CB96CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A4634C221AA60D0300CB96CC;
+					};
+				};
+			};
+			buildConfigurationList = A4634C1E1AA60D0300CB96CC /* Build configuration list for PBXProject "pinterestViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4634C1A1AA60D0300CB96CC;
+			productRefGroup = A4634C241AA60D0300CB96CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4634C221AA60D0300CB96CC /* pinterestViewer */,
+				A4634C371AA60D0300CB96CC /* pinterestViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4634C211AA60D0300CB96CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4634C2E1AA60D0300CB96CC /* Main.storyboard in Resources */,
+				A4634C331AA60D0300CB96CC /* LaunchScreen.xib in Resources */,
+				A4634C301AA60D0300CB96CC /* Images.xcassets in Resources */,
+				A4634C541AA60F4D00CB96CC /* creative_typewriter_square_blur.jpg in Resources */,
+				A4634C561AA60F4D00CB96CC /* maker_mac_square_blur.jpg in Resources */,
+				A4634C571AA60F4D00CB96CC /* tinkerer_camera_square_blur.jpg in Resources */,
+				A4634C551AA60F4D00CB96CC /* intellect_coffee_square_blur.jpg in Resources */,
+				A4634C491AA60DE300CB96CC /* royal_tiger_square_blur.jpg in Resources */,
+				A4634C531AA60F4D00CB96CC /* adventurer_paddler_square_blur.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4634C361AA60D0300CB96CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4634C1F1AA60D0300CB96CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4634C2B1AA60D0300CB96CC /* ViewController.swift in Sources */,
+				A4634C291AA60D0300CB96CC /* AppDelegate.swift in Sources */,
+				A4634C4D1AA60EB200CB96CC /* CollectionViewCell.swift in Sources */,
+				A4634C4B1AA60E6B00CB96CC /* LayoutController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4634C341AA60D0300CB96CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4634C3F1AA60D0300CB96CC /* pinterestViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4634C3A1AA60D0300CB96CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4634C221AA60D0300CB96CC /* pinterestViewer */;
+			targetProxy = A4634C391AA60D0300CB96CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4634C2C1AA60D0300CB96CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4634C2D1AA60D0300CB96CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4634C311AA60D0300CB96CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4634C321AA60D0300CB96CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4634C401AA60D0300CB96CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4634C411AA60D0300CB96CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4634C431AA60D0300CB96CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pinterestViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4634C441AA60D0300CB96CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pinterestViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4634C461AA60D0300CB96CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pinterestViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterestViewer.app/pinterestViewer";
+			};
+			name = Debug;
+		};
+		A4634C471AA60D0300CB96CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pinterestViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterestViewer.app/pinterestViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4634C1E1AA60D0300CB96CC /* Build configuration list for PBXProject "pinterestViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4634C401AA60D0300CB96CC /* Debug */,
+				A4634C411AA60D0300CB96CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4634C421AA60D0300CB96CC /* Build configuration list for PBXNativeTarget "pinterestViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4634C431AA60D0300CB96CC /* Debug */,
+				A4634C441AA60D0300CB96CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4634C451AA60D0300CB96CC /* Build configuration list for PBXNativeTarget "pinterestViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4634C461AA60D0300CB96CC /* Debug */,
+				A4634C471AA60D0300CB96CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4634C1B1AA60D0300CB96CC /* Project object */;
+}
